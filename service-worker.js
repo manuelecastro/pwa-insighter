@@ -1,5 +1,4 @@
-//adicionando o arquivo do service worker, não tá atualizado ainda
-//e o manifest também é a mesma coisa
+
 var cacheName = 'pwaTeste+-v1.2';
 
 self.addEventListener('install', event => {

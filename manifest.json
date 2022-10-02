@@ -3,49 +3,57 @@
   "short_name": "PWA Teste",
   "icons": [
     {
-      "src": "assets/img/icon_128.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon_144.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon_152.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon_167.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/167.png",
       "sizes": "167x167",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon_180.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon_192.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/196.png",
       "sizes": "192x192",
       "type": "image/png",
 	  "purpose": "any maskable"
     },
     {
-      "src": "assets/img/icon_256.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "assets/img/icon_512.png",
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
   ],
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#31506F",
-  "theme_color": "#4D5360"
+  "theme_color": "#4D5360",
+  "dir": "ltr",
+  "orientation": "any"
+  
 }
