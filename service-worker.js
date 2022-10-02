@@ -1,5 +1,4 @@
-
-var cacheName = 'pwaTeste+-v1.2';
+var cacheName = 'insighter+-v1.2';
 
 self.addEventListener('install', event => {
 
@@ -10,28 +9,60 @@ self.addEventListener('install', event => {
       .then(cache => cache.addAll([
 
         './index.html',
+        './charts.html',
+        './login.html',
+        './css/sb-admin-2.min.css',
+        './css/sb-admin-2.css',
 
-        './assets/css/bootstrap.min.css',
+        //pasta JS
+        './js/demo/chart-area-demo.js',
+        './js/demo/chart-bar-demo.js',
+        './js/demo/chart-pie-demo.js',
+        './js/demo/datatables-demo.js',
+        './js/sb-admin-2.js',
+        './js/sb-admin-2.min.js',
 
-        './assets/js/bootstrap.min.js',
+        //pasta vendor/bootstrap
+        './vendor/bootstrap/js/bootstrap.bundle.js',
+        './vendor/bootstrap/js/bootstrap.bundle.js.map',
+        './vendor/bootstrap/js/bootstrap.bundle.min.js',
+        './vendor/bootstrap/js/bootstrap.bundle.min.js.map',
+        './vendor/bootstrap/js/bootstrap.js',
+        './vendor/bootstrap/js/bootstrap.js.map',
+        './vendor/bootstrap/js/bootstrap.min.js',
+        './vendor/bootstrap/js/bootstrap.min.js.map',
 
-        './assets/js/jquery.min.js',
+        //pasta vendor/chart
+        '/vendor/chart.js/Chart.bundle.js',
+        '/vendor/chart.js/Chart.bundle.min.js',
+        '/vendor/chart.js/Chart.js',
+        '/vendor/chart.js/Chart.min.js'
+        
 
-        './assets/js/popper.min.js',
+        //pasta vendor/fontawesome
 
-        './assets/img/background.png',
-        './assets/img/favicon.png',
-        './assets/img/logo.png',
-        './assets/img/icon_128.png',
-        './assets/img/icon_144.png',
-        './assets/img/icon_152.png',
-        './assets/img/icon_167.png',
-        './assets/img/icon_180.png',
-        './assets/img/icon_192.png',
-        './assets/img/icon_256.png',
-        './assets/img/icon_512.png',
-        './assets/img/formulas.JPG',
+
+        //pasta
+
+        // './icon/source/Assets.xcassets/AppIcon.appset/64.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/128.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/144.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/152.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/167.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/180.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/196.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/512.png',
+        // './icon/source/Assets.xcassets/AppIcon.appset/1024.png'
       ]))
+  );
+});
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        return cache.addAll(urlsToCache);
+      })
   );
 });
 
