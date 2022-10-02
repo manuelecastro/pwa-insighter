@@ -41,19 +41,50 @@
     {
       "src": "/Icon/Assets.xcassets/AppIcon.appiconset/512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose":"any maskable"
     },
     {
       "src": "/Icon/Assets.xcassets/AppIcon.appiconset/1024.png",
       "sizes": "1024x1024",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose":"any maskable"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "https://funny-smakager-5340ad.netlify.app/",
   "display": "standalone",
   "background_color": "#31506F",
   "theme_color": "#4D5360",
   "dir": "ltr",
-  "orientation": "any"
+  "orientation": "any",
+  "categories": ["industry","education"],
+ 
+  "shortcuts": [
+    {
+      "name": "Insighter",
+      "short_name": "Insighter",
+      "description": "View the list of your machines",
+      "url": "/play-later?utm_source=homescreen",
+      "icons": [{ "src": "/Icon/Assets.xcassets/AppIcon.appiconset/196.png",
+       "sizes": "196x196" }
+      ]
+    }
+  ],
   
+  "screenshots" : [
+    {
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Homescreen of Awesome App"
+    },
+    {
+      "src": "/Icon/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "List of Awesome Resources available in Awesome App"
+    }
+  ]
 }
