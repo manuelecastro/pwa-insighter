@@ -51,7 +51,7 @@
       "purpose":"any maskable"
     }
   ],
-  "start_url": "https://insighterio.netlify.app/",
+  "start_url": "https://insighterio.netlify.app/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4D5360",
