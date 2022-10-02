@@ -65,7 +65,7 @@
       "name": "Insighter",
       "short_name": "Insighter",
       "description": "View the list of your machines",
-      "url": "/play-later?utm_source=homescreen",
+      "url": "https://insighterio.netlify.app/index.html",
       "icons": [{ "src": "/Icon/Assets.xcassets/AppIcon.appiconset/196.png",
        "sizes": "196x196" }
       ]
