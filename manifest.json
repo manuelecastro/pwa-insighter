@@ -51,12 +51,13 @@
       "purpose":"any maskable"
     }
   ],
-  "start_url": "https://funny-smakager-5340ad.netlify.app/",
+  "start_url": "funny-smakager-5340ad.netlify.app/",
   "display": "standalone",
   "background_color": "#31506F",
   "theme_color": "#4D5360",
   "dir": "ltr",
   "orientation": "any",
+  "scope": "/" ,
   "categories": ["industry","education"],
  
   "shortcuts": [

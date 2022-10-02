@@ -13,7 +13,7 @@
     <title>Insighter</title>
     <!-- Manifest  -->
     <link rel="manifest" href="manifest.json" />
-    <link rel="apple-touch-icon" href="/example.png">
+    <link rel="apple-touch-icon" href="/Icon/Assets.xcassets/AppIcon.appiconset/180.png">
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -319,6 +319,16 @@
         </div>
     </div>
 
+
+
+    <!-- PWA Service Worker-->
+    <script typr="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+
+    </script>
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
