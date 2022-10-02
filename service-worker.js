@@ -13,7 +13,13 @@ self.addEventListener('install', event => {
         './login.html',
         './css/sb-admin-2.min.css',
         './css/sb-admin-2.css',
-
+        './vendor/fontawesome-free/less/_variables.less',
+        './vendor/fontawesome-free/css/v4-shims.min.css',
+        './vendor/fontawesome-free/css/v4-shims.css',
+        './vendor/fontawesome-free/css/fontawesome.min.css',
+        './vendor/fontawesome-free/css/fontawesome.css',
+        './vendor/fontawesome-free/css/all.min.css',
+        './vendor/fontawesome-free/css/all.css',
         //pasta JS
         './js/demo/chart-area-demo.js',
         './js/demo/chart-bar-demo.js',
@@ -36,7 +42,7 @@ self.addEventListener('install', event => {
         '/vendor/chart.js/Chart.bundle.js',
         '/vendor/chart.js/Chart.bundle.min.js',
         '/vendor/chart.js/Chart.js',
-        '/vendor/chart.js/Chart.min.js'
+        '/vendor/chart.js/Chart.min.js',
         
 
         //pasta vendor/fontawesome
@@ -44,6 +50,8 @@ self.addEventListener('install', event => {
 
         //pasta
 
+        './img/logo-white.svg',
+        './img/undraw_profile.svg'
         // './icon/source/Assets.xcassets/AppIcon.appset/64.png',
         // './icon/source/Assets.xcassets/AppIcon.appset/128.png',
         // './icon/source/Assets.xcassets/AppIcon.appset/144.png',

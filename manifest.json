@@ -1,6 +1,6 @@
 {
-  "name": "PWA Teste",
-  "short_name": "PWA Teste",
+  "name": "Insighter",
+  "short_name": "Insighter",
   "icons": [
     {
       "src": "/Icon/Assets.xcassets/AppIcon.appiconset/128.png",
@@ -51,7 +51,7 @@
       "purpose":"any maskable"
     }
   ],
-  "start_url": "funny-smakager-5340ad.netlify.app/",
+  "start_url": "https://funny-smakager-5340ad.netlify.app/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4D5360",
